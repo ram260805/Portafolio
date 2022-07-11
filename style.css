@@ -1,0 +1,195 @@
+body{
+    background: rgb(110,133,183);
+    background: linear-gradient(90deg, rgba(110,133,183,1) 0%, rgba(178,200,223,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+#portafolio{
+    background: #C4D7E0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+#nav{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background: #CCD6A6;
+    font-size: 125%;
+    border-radius: 15px;
+
+    
+    
+
+}
+.lista{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.lista:hover{
+    background:#B2C8DF ;
+    border-radius: 15%;
+}
+
+/* cambios en el  contenedor principal */
+#cont-principal{
+    margin-top: 5%;
+    display: flex;
+    font-size: 400%;
+
+
+}
+#cont-principal2{
+
+
+}
+.inf{
+    margin-left: 5%;
+    font-size: 35px;
+    color: #231955;
+    margin-top: 10%;
+    
+font-family: 'Signika Negative', sans-serif;
+}
+#name{
+    margin-left: 5%;
+    color: #231955;
+    
+    
+}
+#picture{
+    width: 450px;
+    height: 450px;
+    border-radius: 4%;
+}
+#frase{
+    background: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 15px;
+    font-size:300%;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+
+/* cards */
+#acerca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 15px;
+    height: 80px;
+    padding: 0%;
+}
+.cartas{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 60px 0;
+    gap:2em;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 0 6px black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#nav2{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background: #CCD6A6;
+    font-size: 125%;
+    border-radius: 15px;
+    margin-bottom: 25%;
+}
+#portafolio2{
+    background: #C4D7E0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 35%;
+}
+.card-cta{
+    margin-left: 1em;
+    background: darkslateblue;
+    color: white;
+    text-decoration: none;
+    padding: 1em 3em;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: auto;
+    margin-left: 50px;
+
+}
+
+/* Contactame */
+#portafolio3{
+    background: #C4D7E0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+#contacto{
+    width: 900px;
+    height: 400px;
+    margin-left: 6%;
+    box-shadow:0 0 6px black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    background: wheat;
+    margin-bottom: 15px;
+
+}
+#nav3{
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background: #CCD6A6;
+    font-size: 125%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+
+}
+#fb{
+    color :#1F4690;
+    text-decoration: none;
+    margin-top: 40px;
+}
+#fbs{
+    color :#1F4690;
+    text-decoration: none;
+    margin-top: 50px;
+}
+#ws{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.items-cont{
+    margin-top: 40px;
+}
+#correo{
+    margin-top: 50px;
+}
